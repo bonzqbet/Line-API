@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("db-mysql-sgp1-22903-do-user-7425484-0.b.db.ondigitalocean.com:25060", "doadmin", "d9vh4gnoi1ubpeby", "coinmaster");
+$conn = new mysqli("localhost", "username", "password", "db_name");
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
